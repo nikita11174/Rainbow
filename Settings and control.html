@@ -43,41 +43,50 @@
             <h2>Управление Реле</h2>
             <div class="content">
                 <div class="block">
-                    <p>Адрес станции: <label for="SSC">Новое значение: </label>
+                    <div class="input-text">
+                        <p class="adressStation">Адрес станции: </p>
+                        <label for="SSC"></label>
                         <input type="text" id="SSC" name="SSC">
-                        <input type="submit" value="OK"></p>
+                        <input type="submit" value="OK">
+                    </div>
 
                     <ul class="relay">
                         <li>
                             Реле 1:<br>
-                            <input type="radio" id="relay_1" name="relay_1" value="">
+                            <input type="radio" id="relay_1" name="relay_1">
                             <label for="relay_1">Неактивно</label>
-                            <input type="radio" id="relay_2" name="relay_1" value="">
-                            <label for="relay_2">Активно</label>
+                            <input type="radio" id="relay_2" name="relay_1">
+                            <label for="relay_1">Активно</label>
                         </li>
                         <li>Реле 2:<br>
-                            <input type="radio" id="relay_3" name="relay_2" value="">
+                            <input type="radio" id="relay_3" name="relay_2">
                             <label for="relay_3">Неактивно</label>
-                            <input type="radio" id="relay_4" name="relay_2" value="">
+                            <input type="radio" id="relay_4" name="relay_2">
                             <label for="relay_4">Активно</label></li>
                         <li>Реле 3:<br>
-                            <input type="radio" id="relay_5" name="relay_3" value="">
+                            <input type="radio" id="relay_5" name="relay_3">
                             <label for="relay_5">Неактивно</label>
-                            <input type="radio" id="relay_6" name="relay_3" value="">
+                            <input type="radio" id="relay_6" name="relay_3">
                             <label for="relay_6">Активно</label></li>
                     </ul>
                 </div>
                 <div class="block">
-                    <div class="block-block">
-                        <p><span>Счетчик электроэнергии, кВт: </span><span></span></p>
+                    <div class="electricity-meter">
+                        <div class="block-block">
+                            Счетчик электроэнергии, кВт:
+                        </div>
+                        <div class="block-dash">-</div>
                     </div>
                 </div>
                 <div class="block-info">
-                    <div class="block-block">
-                        <p>Уставка стабилизированного параметра Тока:&nbsp-</p>
-                        <label for="SSC">Новое значение: </label>
-                        <input type="text" id="SSC" name="SSC">
-                        <input type="submit" value="OK">
+                    <div class="block-test">
+                        <div class="block-block">
+                            <p>Уставка стабилизированного параметра Тока:</p>
+                            <label for="SSC">Новое значение: </label>
+                            <input type="text" id="SSC" name="SSC">
+                            <input type="submit" value="OK">
+                        </div>
+                        <div class="block-dash">-</div>
                     </div>
                     <div class="block-block">
                         <p>Уставка стабилизированного параметра СП:&nbsp-</p>

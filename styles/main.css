@@ -6,7 +6,7 @@ body {
 .header {
     font-family: 'Open Sans', sans-serif;
     padding-top: 5px;
-    padding-bottom: 25px;
+    padding-bottom: 67px;
 
 }
 
@@ -26,11 +26,15 @@ body {
     background-color: #f9f9f9;
 }
 
+h1 {
+    margin: 0;
+}
+
 .menu-ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    width: 327px;
+    width: 311px;
     border: 3px solid #f3f3f3;
 }
 
@@ -50,6 +54,7 @@ li:last-child {
     border-bottom: none;
 }
 
+
 .menu-li a.active {
     background-color: #dd1d4c;
     color: white;
@@ -65,10 +70,14 @@ li:last-child {
     justify-content: space-between;
 }
 
+.relay li {
+    list-style-type: none;
+}
 
 .content-wrapper {
     width: calc(100% - 400px);
     padding: 0 30px;
+    margin-right: 30%;
 }
 
 .content {
@@ -81,23 +90,92 @@ li:last-child {
 
 }
 
+
+.block-test {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.block-block {
+
+}
+
 .block-info {
     border-left: 3px solid #dd1d4c;
+    padding-left: 3px;
+}
+
+.block-dash {
+
+}
+
+.electricity-meter {
+    display: flex;
+    justify-content: space-between;
 }
 
 .content-booth {
     grid-template-rows: auto;
 }
 
-.inp {
-    border: solid 2px gray;
-    margin: 20px 5px;
-    outline: solid 10px silver;
+
+.input-text {
+    display: flex;
+    align-items: center;
+    gap: 14px;
 }
 
-.inp:focus {
-    outline: solid 10px red;
+.adressStation {
+    max-width: 120px;
 }
+
+.input-text input[type="text"] {
+    background-color: #f2f2f2;
+    border-color: transparent;
+    outline: none;
+    max-width: 130px;
+}
+
+.input-text input[type="submit"] {
+    background-color: #f2f2f2;
+    border-color: transparent;
+    outline: none;
+    max-width: 31px;
+    padding: 0px;
+    font-size: 18px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.input-text input[type="text"]:focus {
+    border: 2px solid #dd1d4c;
+
+}
+
+.block-info input[type="text"] {
+    background-color: #f2f2f2;
+    border-color: transparent;
+    outline: none;
+    max-width: 130px;
+}
+
+.block-info input[type="submit"] {
+    background-color: #f2f2f2;
+    border-color: transparent;
+    outline: none;
+    max-width: 31px;
+    padding: 0px;
+    font-size: 18px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.block-info input[type="text"]:focus {
+    border: 2px solid #dd1d4c;
+
+}
+
 
 table, td, th {
     border: 1px solid;
