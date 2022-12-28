@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Settings and control</title>
+    <link rel="stylesheet" href="../rainbow/styles/normalize.css">
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+<header class="header">
+    <div class="container">
+        <div class="header-item">
+            <a href="#" class="header-logo"></a>
+        </div>
+    </div>
+    <div class="container">
+        <div class="header-title">
+            <h1>Установки и управление</h1>
+        </div>
+    </div>
+</header>
+<main class="main">
+
+    <div class="page-wrapper">
+        <div class="left-panel-wrapper">
+            <div class="left-panel">
+                <div class="menu-nav">
+                    <ul class="menu-ul">
+                        <li class="menu-li"><a class="active" href="Settings%20and%20control.html">Установки и
+                            управление</a></li>
+                        <li class="menu-li"><a href="Start%20testing.html">Запуск тестирования</a></li>
+                        <li class="menu-li"><a href="Messages%20from%20the%20booth.html">Сообщения от стенда</a></li>
+                        <li class="menu-li"><a href="Checkpoints.html">Контрольные точки</a></li>
+                        <li class="menu-li"><a href="Settings.html">Настройки</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="content-wrapper">
+            <h2>Управление Реле</h2>
+            <div class="content">
+                <div class="block">
+                    <p>Адрес станции: <label for="SSC">Новое значение: </label>
+                        <input type="text" id="SSC" name="SSC">
+                        <input type="submit" value="OK"></p>
+
+                    <ul class="relay">
+                        <li>
+                            Реле 1:<br>
+                            <input type="radio" id="relay_1" name="relay_1" value="">
+                            <label for="relay_1">Неактивно</label>
+                            <input type="radio" id="relay_2" name="relay_1" value="">
+                            <label for="relay_2">Активно</label>
+                        </li>
+                        <li>Реле 2:<br>
+                            <input type="radio" id="relay_3" name="relay_2" value="">
+                            <label for="relay_3">Неактивно</label>
+                            <input type="radio" id="relay_4" name="relay_2" value="">
+                            <label for="relay_4">Активно</label></li>
+                        <li>Реле 3:<br>
+                            <input type="radio" id="relay_5" name="relay_3" value="">
+                            <label for="relay_5">Неактивно</label>
+                            <input type="radio" id="relay_6" name="relay_3" value="">
+                            <label for="relay_6">Активно</label></li>
+                    </ul>
+                </div>
+                <div class="block">
+                    <div class="block-block">
+                        <p><span>Счетчик электроэнергии, кВт: </span><span></span></p>
+                    </div>
+                </div>
+                <div class="block-info">
+                    <div class="block-block">
+                        <p>Уставка стабилизированного параметра Тока:&nbsp-</p>
+                        <label for="SSC">Новое значение: </label>
+                        <input type="text" id="SSC" name="SSC">
+                        <input type="submit" value="OK">
+                    </div>
+                    <div class="block-block">
+                        <p>Уставка стабилизированного параметра СП:&nbsp-</p>
+                        <label for="SSC">Новое значение: </label>
+                        <input type="text" id="SSC" name="SSC">
+                        <input type="submit" value="OK">
+                    </div>
+                    <div class="block-block">
+                        <p>Уставка стабилизированного параметра ПП:&nbsp-</p>
+                        <label for="SSC">Новое значение: </label>
+                        <input type="text" id="SSC" name="SSC">
+                        <input type="submit" value="OK">
+                    </div>
+                    <div class="block-block">
+                        <p>Уставка стабилизированного параметра:&nbsp-</p>
+                        <label for="SSC">Новое значение: </label>
+                        <input type="text" id="SSC" name="SSC">
+                        <input type="submit" value="OK">
+                    </div>
+                </div>
+                <div class="block-info">
+                    <div class="block-block">
+                        <p>Команда калибровки:&nbsp-</p>
+                        <label for="SSC">Новое значение: </label>
+                        <input type="text" id="SSC" name="SSC">
+                        <input type="submit" value="OK">
+                    </div>
+                    <div class="block-block">
+                        <p>Ток шунта при 75 мВ, Ампер:&nbsp-</p>
+                        <label for="SSC">Новое значение: </label>
+                        <input type="text" id="SSC" name="SSC">
+                        <input type="submit" value="OK">
+                    </div>
+                    <div class="block-block">
+                        <p>Число электросчетчика, вид long ABCD:&nbsp-</p>
+                        <label for="SSC">Новое значение: </label>
+                        <input type="text" id="SSC" name="SSC">
+                        <input type="submit" value="OK">
+                    </div>
+                    <div class="block-block">
+                        <p>Число предварительного делителя
+                            электросчетчика, количество импульсов в 1 кВт/ч:&nbsp-</p>
+                        <label for="SSC">Новое значение: </label>
+                        <input type="text" id="SSC" name="SSC">
+                        <input type="submit" value="OK">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+</body>
+</html>
