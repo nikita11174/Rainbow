@@ -90,24 +90,29 @@ li:last-child {
 
 }
 
-
-.block-test {
+.sub-block {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
 }
 
-.block-block {
+.sub-block:hover {
+
+}
+
+
+.block-parameter {
 
 }
 
 .block-info {
     border-left: 3px solid #dd1d4c;
     padding-left: 3px;
+    margin-bottom: 40px;
 }
 
 .block-dash {
-
+    margin-right: 40px;
 }
 
 .electricity-meter {
@@ -126,7 +131,7 @@ li:last-child {
     gap: 14px;
 }
 
-.adressStation {
+.addressStation {
     max-width: 120px;
 }
 
