@@ -6,6 +6,9 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Settings</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../rainbow/styles/normalize.css">
     <link rel="stylesheet" href="styles/main.css">
 </head>
@@ -41,21 +44,14 @@
         </div>
         <div class="content-wrapper">
             <h2>Настройки</h2>
-            <div class="content">
-                <div class="block">
-                    <p>Адрес станции: <label for="SSC">Новое значение: </label>
-                        <input type="text" id="SSC" name="SSC">
-                        <input type="submit" value="OK"></p>
+            <div class="content-Setting">
+                <div class="block-setting">
+                    <button class="button">Загрузить конфигурацию на станцию</button>
+                    <div class="textSettingSuccess">Конфигурация успешно загружена</div>
                 </div>
-                <div class="block">
-                    <div class="block-parameter">
-                        5423
-                    </div>
-                </div>
-                <div class="block">
-                    <div class="block-parameter">
-                        423
-                    </div>
+                <div class="block-setting">
+                    <button class="button">Загрузить конфигурацию на станцию</button>
+                    <div class="textSettingFail">Конфигурация успешно загружена</div>
                 </div>
             </div>
         </div>

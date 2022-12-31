@@ -1,4 +1,5 @@
 body {
+    font-family: 'MontserratV', sans-serif;
     margin-left: 60px;
     margin-right: 60px;
 }
@@ -28,13 +29,18 @@ body {
 
 h1 {
     margin: 0;
+    font-weight: 500;
+}
+
+h2 {
+    font-weight: 500;
 }
 
 .menu-ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    width: 311px;
+    width: 250px;
     border: 3px solid #f3f3f3;
 }
 
@@ -46,7 +52,7 @@ h1 {
 }
 
 .menu-li {
-    text-align: center;
+    text-align: left;
     border-bottom: 3px solid #f3f3f3;
 }
 
@@ -77,12 +83,18 @@ li:last-child {
 .content-wrapper {
     width: calc(100% - 400px);
     padding: 0 30px;
-    margin-right: 30%;
+    margin-right: 15%;
+    margin-left: 15%;
+
 }
 
 .content {
     display: grid;
     grid-template-columns: repeat(2, 2fr)
+}
+
+content-start-testing {
+    display: flex;
 }
 
 .block {
@@ -102,6 +114,10 @@ li:last-child {
 
 
 .block-parameter {
+
+}
+
+.block-setting button {
 
 }
 
@@ -187,6 +203,41 @@ table, td, th {
 }
 
 table {
-    width: 100%;
+    width: 120%;
     border-collapse: collapse;
+}
+
+.block-setting {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    margin: 23px 0px;
+}
+
+.block-setting button {
+    max-width: 180px;
+    height: 60px;
+    background-color: transparent;
+    border: 1px solid #000000;
+    margin: -1px;
+
+}
+
+.block-setting button:hover {
+    background-color: #dd1d4c;
+    color: white;
+    border: none;
+}
+
+.content-Setting {
+    display: flex;
+    flex-flow: column;
+}
+
+.textSettingSuccess {
+    color: #398909;
+}
+
+.textSettingFail {
+    color: #dd1d4c;
 }
