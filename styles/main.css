@@ -78,6 +78,25 @@ li:last-child {
 
 .relay li {
     list-style-type: none;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.relay_block_radio {
+    display: flex;
+    gap: 40px;
+}
+
+.relay_number {
+    margin-bottom: 10px;
+}
+
+.relay_li {
+    display: flex;
+}
+
+
+.relay_radio {
 }
 
 .content-wrapper {
@@ -122,8 +141,8 @@ content-start-testing {
 }
 
 .block-info {
-    border-left: 3px solid #dd1d4c;
-    padding-left: 3px;
+    border-left: 2px solid #dd1d4c;
+    padding-left: 12px;
     margin-bottom: 40px;
 }
 
@@ -148,7 +167,7 @@ content-start-testing {
 }
 
 .addressStation {
-    max-width: 120px;
+    max-width: 130px;
 }
 
 .input-text input[type="text"] {

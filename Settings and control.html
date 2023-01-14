@@ -53,23 +53,45 @@
                         <input type="submit" value="OK">
                     </div>
                     <ul class="relay">
-                        <li>
-                            Реле 1:<br>
-                            <input type="radio" id="relay_1" name="relay_1">
-                            <label for="relay_1">Неактивно</label>
-                            <input type="radio" id="relay_2" name="relay_1">
-                            <label for="relay_1">Активно</label>
+                        <li class="relay_li">
+                            <div class="relay_number">Реле 1:</div>
+                            <div class="relay_block_radio">
+                                <div class="relay_radio">
+                                    <input type="radio" id="relay_1" name="relay_1">
+                                    <label for="relay_1">Неактивно</label>
+                                </div>
+                                <div class="relay_radio">
+                                    <input type="radio" id="relay_2" name="relay_1">
+                                    <label for="relay_1">Активно</label>
+                                </div>
+                            </div>
                         </li>
-                        <li>Реле 2:<br>
-                            <input type="radio" id="relay_3" name="relay_2">
-                            <label for="relay_3">Неактивно</label>
-                            <input type="radio" id="relay_4" name="relay_2">
-                            <label for="relay_4">Активно</label></li>
-                        <li>Реле 3:<br>
-                            <input type="radio" id="relay_5" name="relay_3">
-                            <label for="relay_5">Неактивно</label>
-                            <input type="radio" id="relay_6" name="relay_3">
-                            <label for="relay_6">Активно</label></li>
+                        <li class="relay_li">
+                            <div class="relay_number">Реле 2:</div>
+                            <div class="relay_block_radio">
+                                <div class="relay_radio">
+                                    <input type="radio" id="relay_3" name="relay_2">
+                                    <label for="relay_1">Неактивно</label>
+                                </div>
+                                <div class="relay_radio">
+                                    <input type="radio" id="relay_4" name="relay_2">
+                                    <label for="relay_1">Активно</label>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="relay_li">
+                            <div class="relay_number">Реле 3:</div>
+                            <div class="relay_block_radio">
+                                <div class="relay_radio">
+                                    <input type="radio" id="relay_5" name="relay_3">
+                                    <label for="relay_1">Неактивно</label>
+                                </div>
+                                <div class="relay_radio">
+                                    <input type="radio" id="relay_6" name="relay_3">
+                                    <label for="relay_1">Активно</label>
+                                </div>
+                            </div>
+                        </li>
                     </ul>
                 </div>
                 <div class="block">
@@ -92,7 +114,7 @@
                     </div>
                     <div class="sub-block">
                         <div class="block-parameter">
-                            <p>Уставка стабилизированного параметра СП:-</p>
+                            <p>Уставка стабилизированного параметра СП:</p>
                             <label for="SSC">Новое значение: </label>
                             <input type="text" id="SSC" name="SSC">
                             <input type="submit" value="OK">
