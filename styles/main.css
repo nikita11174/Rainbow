@@ -82,10 +82,15 @@ li:last-child {
     margin-bottom: 15px;
 }
 
+.relay {
+    padding-left: 0;
+}
+
 .relay_block_radio {
     display: flex;
     gap: 40px;
 }
+
 
 .relay_number {
     margin-bottom: 10px;
@@ -95,9 +100,14 @@ li:last-child {
     display: flex;
 }
 
-
 .relay_radio {
+
 }
+.relay_radio input{
+
+}
+
+
 
 .content-wrapper {
     width: calc(100% - 400px);
@@ -112,7 +122,7 @@ li:last-child {
     grid-template-columns: repeat(2, 2fr)
 }
 
-content-start-testing {
+.content-start-testing {
     display: flex;
 }
 
@@ -120,6 +130,7 @@ content-start-testing {
     max-width: 430px;
 
 }
+
 
 .sub-block {
     display: flex;
@@ -259,4 +270,8 @@ table {
 
 .textSettingFail {
     color: #dd1d4c;
+}
+
+.block-button{
+
 }
