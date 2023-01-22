@@ -103,10 +103,10 @@ li:last-child {
 .relay_radio {
 
 }
-.relay_radio input{
+
+.relay_radio input {
 
 }
-
 
 
 .content-wrapper {
@@ -124,6 +124,7 @@ li:last-child {
 
 .content-start-testing {
     display: flex;
+    flex-direction: column
 }
 
 .block {
@@ -147,6 +148,10 @@ li:last-child {
 
 }
 
+.ST-block-parameter {
+
+}
+
 .block-setting button {
 
 }
@@ -161,9 +166,19 @@ li:last-child {
     margin-right: 40px;
 }
 
+.SAC-electricity-meter {
+    display: flex;
+    justify-content: space-between;
+}
+
 .electricity-meter {
     display: flex;
     justify-content: space-between;
+}
+
+.ST-StatusTesting {
+    display: flex;
+    gap: 20%;
 }
 
 .content-booth {
@@ -272,6 +287,13 @@ table {
     color: #dd1d4c;
 }
 
-.block-button{
+.block-button button {
+    background: white;
+    cursor: pointer;
+
+}
+.block-button button:active {
+    background: #dd1d4c;
+    cursor: pointer;
 
 }
