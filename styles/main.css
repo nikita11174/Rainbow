@@ -290,10 +290,17 @@ table {
 .block-button button {
     background: white;
     cursor: pointer;
+    border: solid 1px black;
+    margin: 5px;
 
 }
+
 .block-button button:active {
     background: #dd1d4c;
     cursor: pointer;
+}
+
+.MsgFromStand textarea {
+    resize: none;
 
 }
