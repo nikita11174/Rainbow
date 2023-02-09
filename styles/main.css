@@ -4,6 +4,11 @@ body {
     margin-right: 60px;
 }
 
+h2 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
 .header {
     font-family: 'Open Sans', sans-serif;
     padding-top: 5px;
@@ -34,6 +39,7 @@ h1 {
 
 h2 {
     font-weight: 500;
+    margin-bottom: 25px;
 }
 
 .menu-ul {
@@ -73,7 +79,7 @@ li:last-child {
 
 .page-wrapper {
     display: flex;
-    justify-content: space-between;
+    /*    justify-content: space-between;*/
 }
 
 .relay li {
@@ -100,20 +106,19 @@ li:last-child {
     display: flex;
 }
 
-.relay_radio {
-
-}
-
 .relay_radio input {
 
+
 }
 
+.relay_radio input[type='radio']:checked {
+    accent-color: #dd1d4c;
+}
 
 .content-wrapper {
-    width: calc(100% - 400px);
-    padding: 0 30px;
-    margin-right: 15%;
-    margin-left: 15%;
+
+    margin-right: 12%;
+    margin-left: 6%;
 
 }
 
@@ -127,9 +132,10 @@ li:last-child {
     flex-direction: column
 }
 
-.block {
-    max-width: 430px;
-
+.block-testing {
+    max-width: 530px;
+    margin-bottom: 35px;
+    margin-top: 15px;
 }
 
 
@@ -137,10 +143,6 @@ li:last-child {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-}
-
-.sub-block:hover {
-
 }
 
 
@@ -160,12 +162,25 @@ li:last-child {
     border-left: 2px solid #dd1d4c;
     padding-left: 12px;
     margin-bottom: 40px;
+    margin-right: 90px;
+}
+
+.blocCP {
+    width: 750px;
+}
+
+.sub-block:hover {
+    color: #dd1d4c;
 }
 
 .block-dash {
-    margin-right: 40px;
+    /*
+    margin-right: 90px;
+    */
 }
-
+.block-infoSAC{
+    width: 400px;
+}
 .SAC-electricity-meter {
     display: flex;
     justify-content: space-between;
@@ -178,7 +193,8 @@ li:last-child {
 
 .ST-StatusTesting {
     display: flex;
-    gap: 20%;
+    gap: 5%;
+    margin-bottom: 5px;
 }
 
 .content-booth {
@@ -190,6 +206,10 @@ li:last-child {
     display: flex;
     align-items: center;
     gap: 14px;
+}
+
+.input-text:hover {
+    color: black;
 }
 
 .addressStation {
@@ -219,6 +239,10 @@ li:last-child {
 
 }
 
+.block {
+    margin: 0px;
+}
+
 .block-info input[type="text"] {
     background-color: #f2f2f2;
     border-color: transparent;
@@ -239,17 +263,24 @@ li:last-child {
 
 .block-info input[type="text"]:focus {
     border: 2px solid #dd1d4c;
-
+    background-color: white;
 }
 
 
 table, td, th {
-    border: 1px solid;
+    border: 2px solid #dfdfdf;
 }
 
-table {
-    width: 120%;
+td {
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.block-table {
+    max-width: 700px;
     border-collapse: collapse;
+    margin-bottom: 40px;
 }
 
 .block-setting {
@@ -260,7 +291,7 @@ table {
 }
 
 .block-setting button {
-    max-width: 180px;
+    max-width: 222px;
     height: 60px;
     background-color: transparent;
     border: 1px solid #000000;
@@ -300,7 +331,21 @@ table {
     cursor: pointer;
 }
 
+.MsgFromStand h2 {
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
 .MsgFromStand textarea {
     resize: none;
+
+}
+
+.alert {
+    margin-top: 145px;
+}
+
+.alert ul {
+    list-style-type: none;
 
 }
