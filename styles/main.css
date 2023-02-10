@@ -146,8 +146,8 @@ li:last-child {
 }
 
 
-.block-parameter {
-
+.ST-StatusTesting:hover {
+    color: #dd1d4c;
 }
 
 .ST-block-parameter {
@@ -173,12 +173,6 @@ li:last-child {
     color: #dd1d4c;
 }
 
-.block-dash {
-    /*
-    margin-right: 90px;
-    */
-}
-
 .block-infoSAC {
     width: 400px;
 }
@@ -186,6 +180,10 @@ li:last-child {
 .SAC-electricity-meter {
     display: flex;
     gap: 80px;
+}
+
+.SAC-electricity-meter:hover {
+    color: #dd1d4c;
 }
 
 .electricity-meter {
