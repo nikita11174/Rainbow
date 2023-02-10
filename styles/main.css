@@ -332,17 +332,25 @@ td {
     background: #dd1d4c;
 }
 
+.btn-log {
+    display: grid;
+    justify-items: end;
+}
+
 .button-log {
     width: 145px;
     background: white;
     border: solid 1px black;
     cursor: pointer;
-    float: right;
     margin-top: 40px;
 }
 
 .button-log:active {
     background: #dd1d4c;
+}
+
+.MsgFromStand {
+    display: grid;
 }
 
 .MsgFromStand h2 {
